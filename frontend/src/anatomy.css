@@ -1,0 +1,16 @@
+.model-stage{display:grid;place-items:center;overflow:hidden}
+.anatomy-svg{display:block;width:min(100%,390px);height:100%;padding:6px 0 2px}
+.body-silhouette .skin-shape{fill:url(#skin);stroke:#94664e;stroke-width:2.4;stroke-linejoin:round}
+.body-silhouette .body-outline{fill:none;stroke:#744b3b;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.body-silhouette .inner-cavity{fill:url(#cavity);stroke:#bd805e;stroke-width:3}
+.body-silhouette .rib-lines{fill:none;stroke:#d6a783;stroke-width:2;opacity:.65;stroke-linecap:round}
+.body-silhouette .spine{fill:none;stroke:#e6b394;stroke-width:4;stroke-linecap:round;opacity:.8}
+.anatomy-organ{stroke:#392d32;stroke-width:1.7;stroke-linejoin:round;opacity:.98;transition:fill .2s ease,filter .2s ease,opacity .2s ease}
+.lung-organ{fill:#a9364b}.breast-organ{fill:#e3a88f}.liver-organ{fill:#934634}.stomach-organ{fill:#d87e78}.kidney-organ{fill:#953f52}.prostate-organ{fill:#bd6473}.bone-organ{fill:#efc89e}
+.anatomy-organ.highlighted{fill:var(--highlight);stroke:#fff5e9;stroke-width:2.5;filter:url(#organ-glow);opacity:1}
+.colon-organ{fill:none;stroke:#d35b61;stroke-width:10;stroke-linecap:round;stroke-linejoin:round}
+.colon-organ.highlighted{fill:none;stroke:var(--highlight);stroke-width:12}
+.heart-organ{fill:#ee4957;stroke:#6e2736;stroke-width:1.5}
+.organ-detail,.intestine-detail{fill:none;stroke:#f0b3a0;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;opacity:.78}
+.intestine-detail{stroke:#ed9b88;stroke-width:2.3}
+.anatomy-caption{fill:#a5b4c6;font:700 8px 'DM Sans',sans-serif;letter-spacing:1.5px}
